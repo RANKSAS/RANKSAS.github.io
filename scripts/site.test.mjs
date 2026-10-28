@@ -1,12 +1,12 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import test from 'node:test';
 
 const root = new URL('../_site/', import.meta.url);
-const pages = ['/', '/methode/', '/outils/', '/visibilite-locale/', '/satisfaction-client/', '/hospitality/', '/restauration/', '/retail/', '/articles/que-faire-avec-douze-avis-clients/', '/a-propos/', '/contribuer/'];
+const pages = ['/', '/methode/', '/outils/', '/visibilite-locale/', '/satisfaction-client/', '/hospitality/', '/restauration/', '/retail/', '/articles/que-faire-avec-douze-avis-clients/', '/articles/audit-parcours-client-local/', '/journal/', '/a-propos/', '/contribuer/'];
 const read = (path) => readFileSync(new URL(`.${path}index.html`, root), 'utf8');
 
-test('eleven public pages have unique titles, canonical URLs and visible ownership', () => {
+test('thirteen public pages have unique titles, canonical URLs and visible ownership', () => {
   const titles = new Set();
   for (const path of pages) {
     const html = read(path);
@@ -37,4 +37,28 @@ test('sitemap and robots list the canonical host and no nonexistent page', () =>
   for (const path of pages) assert.ok(sitemap.includes(`https://ranksas.github.io${path}</loc>`), path);
   assert.ok(robots.includes('Sitemap: https://ranksas.github.io/sitemap.xml'));
   assert.ok(!sitemap.includes('/contact'));
+});
+
+
+test('journal, feed and downloadable fieldwork asset match the published article', () => {
+  const journal = read('/journal/');
+  const article = read('/articles/audit-parcours-client-local/');
+  const feed = readFileSync(new URL('./feed.xml', root), 'utf8');
+  const csv = readFileSync(new URL('./assets/parcours-local-15-tests.csv', root), 'utf8');
+  assert.ok(journal.includes('href="/articles/audit-parcours-client-local/"'));
+  assert.ok(article.includes('datePublished":"2026-10-28T17:35:00Z"'));
+  assert.ok(article.includes('href="/assets/parcours-local-15-tests.csv" download'));
+  assert.equal(csv.trim().split('\n').length - 1, 15);
+  assert.ok(feed.includes('https://ranksas.github.io/articles/audit-parcours-client-local/'));
+  assert.ok(!readFileSync(new URL('./sitemap.xml', root), 'utf8').includes('/feed.xml</loc>'));
+});
+
+test('all internal HTML links resolve to generated pages or assets', () => {
+  for (const path of pages) {
+    for (const [, href] of read(path).matchAll(/href="(\/[^"#]+)(?:#[^"]*)?"/g)) {
+      const target = href.split('?')[0];
+      const relative = target.endsWith('/') ? `.${target}index.html` : `.${target}`;
+      assert.ok(existsSync(new URL(relative, root)), `${path} -> ${href}`);
+    }
+  }
 });

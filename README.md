@@ -1,6 +1,6 @@
 # Terrain Visible
 
-Site éditorial créé et exploité par MyFrank. Il publie des méthodes originales sur la satisfaction client et la visibilité locale, sans se présenter comme un tiers indépendant. URL initiale : `https://ranksas.github.io/` ; un domaine propre pourra être ajouté plus tard après vérification de disponibilité et achat.
+Site éditorial créé et exploité par MyFrank. Il publie des méthodes originales sur la satisfaction client et la visibilité locale, sans se présenter comme un tiers indépendant. URL actuelle : `https://ranksas.github.io/` ; un domaine propre pourra être ajouté plus tard après vérification de disponibilité et achat.
 
 ## Développement
 
@@ -10,7 +10,7 @@ npm run build
 npm test
 ```
 
-Le calculateur n'envoie aucune donnée. Les liens vers MyFrank sont contextuels et portent des paramètres UTM ; la mesure réelle des visites et leads doit être vérifiée côté analytics, pas inférée du nombre d'articles.
+Le Journal publie des articles datés avec un flux Atom et des actifs copiables ; le calculateur n’envoie aucune donnée. Les liens vers MyFrank sont contextuels et portent des paramètres UTM ; la mesure réelle des visites et leads doit être vérifiée côté analytics, pas inférée du nombre d'articles.
 
 ## Publication et contributions
 

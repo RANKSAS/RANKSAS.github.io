@@ -3,10 +3,13 @@ layout: base.njk
 title: Que faire avec douze avis clients ? Un exemple de tri utile
 description: "Un exemple fictif et chiffré pour traiter douze avis clients : coder les thèmes, garder le bon dénominateur et vérifier avant d’agir."
 date: 2026-10-28
+published: "28 octobre 2026"
+publishedIso: "2026-10-28T16:34:15Z"
+category: Méthode
 tags: article
 permalink: /articles/que-faire-avec-douze-avis-clients/index.html
 ---
-<p class="eyebrow">Méthode · exemple fictif · 28 octobre 2026</p>
+<p class="eyebrow">Méthode · exemple fictif · 28 octobre 2026 · par la rédaction Terrain Visible (MyFrank)</p>
 
 # Que faire avec douze avis clients ?
 

@@ -1,0 +1,16 @@
+Etape;Secteur;Scenario a tester;Resultat observe;Preuve interne;Responsable;Date de controle
+Decouvrir;Hotellerie;Verifier que la fiche publique et la page donnent le bon nom et le bon acces;;;;
+Decouvrir;Restauration;Verifier les horaires du service recherche sur la fiche et la page;;;;
+Decouvrir;Commerce;Distinguer clairement adresse du magasin et boutique en ligne;;;;
+Decider;Hotellerie;Trouver sur mobile les conditions de reservation et d'arrivee;;;;
+Decider;Restauration;Ouvrir la carte et terminer une reservation mobile;;;;
+Decider;Commerce;Verifier que la disponibilite n'annonce pas un stock non confirme;;;;
+Venir;Hotellerie;Suivre les indications d'entree apres l'heure habituelle d'accueil;;;;
+Venir;Restauration;Suivre l'adresse jusqu'a la bonne entree;;;;
+Venir;Commerce;Trouver les instructions de retrait avant le deplacement;;;;
+Accueil;Hotellerie;Comparer l'instruction pre-arrivee avec la porte accessible;;;;
+Accueil;Restauration;Verifier que la reservation annoncee est reconnue en salle;;;;
+Accueil;Commerce;Tester le parcours de retrait annonce avec le personnel;;;;
+Verifier;Hotellerie;Recompter les demandes d'acces comparables apres correction;;;;
+Verifier;Restauration;Retester l'obstacle signale sur un creneau comparable;;;;
+Verifier;Commerce;Comparer les questions au comptoir et les informations de la page;;;;

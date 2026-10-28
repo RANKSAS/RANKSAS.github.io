@@ -20,3 +20,11 @@ Un client peut trouver un magasin, puis renoncer faute d’horaire fiable, de di
 *Exemple fictif :* trois appels demandent où retirer une commande. L’équipe vérifie le parcours mobile et la signalétique, modifie l’instruction si l’obstacle est confirmé, puis suit les appels comparables. Trois appels ne représentent pas trois pour cent des clients : aucun dénominateur n’a été établi.
 
 La [grille de visibilité](/visibilite-locale/) aide à documenter la présence en ligne ; la [méthode de satisfaction](/satisfaction-client/) évite de confondre un signal avec un verdict.
+
+## Fiche d’audit : retirer une commande
+
+Le retrait mêle présence numérique et expérience physique. Testez-le comme une personne qui n’a jamais visité le magasin : depuis la page produit ou la confirmation, pouvez-vous comprendre **quand venir**, **où aller** et **quoi présenter** sans appeler ? N’utilisez pas une commande réelle contenant des données personnelles pour documenter un exemple public.
+
+<div class="table-wrap" tabindex="0" role="region" aria-label="Fiche de vérification du retrait en commerce, tableau défilable"><table><thead><tr><th>Support</th><th>Question à vérifier</th><th>Preuve interne</th></tr></thead><tbody><tr><td>Page produit</td><td>Le stock est-il réel, estimé ou non communiqué ?</td><td>Règle affichée et état au moment du test</td></tr><tr><td>Confirmation</td><td>Adresse, délai et pièces nécessaires sont-ils cohérents ?</td><td>Version anonymisée du message</td></tr><tr><td>Magasin</td><td>La signalétique et l’équipe retrouvent-elles le parcours annoncé ?</td><td>Observation du testeur et date</td></tr></tbody></table></div>
+
+Une disponibilité non vérifiée vaut mieux qu’une certitude fausse. Un écart constaté doit être affecté à quelqu’un et retesté ; il ne prouve pas à lui seul une perte de ventes. Pour reprendre la méthode sur d’autres scénarios, [téléchargez la grille des quinze tests](/articles/audit-parcours-client-local/) et reliez-la à [la fiche de satisfaction](/satisfaction-client/).

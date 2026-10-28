@@ -10,15 +10,19 @@
   <meta property="og:title" content="{{ title }} · {{ site.name }}">
   <meta property="og:description" content="{{ description or site.description }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <link rel="stylesheet" href="/assets/site.css?v=20261028b">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"{{ 'Article' if tags and 'article' in tags else 'WebPage' }}","headline":{{ title | dump | safe }},"url":{{ (site.url + page.url) | dump | safe }},"publisher":{"@type":"Organization","name":"MyFrank"}}</script>
+  <meta property="og:image" content="{{ site.url }}/assets/terrain-visible-og.png">
+  <meta property="og:image:alt" content="Terrain Visible : satisfaction client et visibilité locale">
+  <link rel="alternate" type="application/atom+xml" title="Terrain Visible, le journal" href="{{ site.url }}/feed.xml">
+  {% if publishedIso %}<meta property="article:published_time" content="{{ publishedIso }}">{% endif %}
+  <link rel="stylesheet" href="/assets/site.css?v=20261028c">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"{{ 'Article' if tags and 'article' in tags else 'WebPage' }}","headline":{{ title | dump | safe }},"url":{{ (site.url + page.url) | dump | safe }},"publisher":{"@type":"Organization","name":"MyFrank"}{% if publishedIso %},"author":{"@type":"Organization","name":"MyFrank"},"datePublished":{{ publishedIso | dump | safe }}{% endif %}}</script>
 </head>
 <body>
   <a class="skip" href="#contenu">Aller au contenu</a>
   <header class="site-header">
     <div class="shell header-inner">
       <a class="brand" href="/" aria-label="Terrain Visible, accueil"><span class="brand-mark" aria-hidden="true">T<span>.</span></span><span>Terrain<br>Visible</span></a>
-      <nav aria-label="Navigation principale"><a href="/visibilite-locale/">Visibilité</a><a href="/satisfaction-client/">Satisfaction</a><a href="/outils/">Outils</a><a href="/contribuer/">Contribuer</a></nav>
+      <nav aria-label="Navigation principale"><a href="/journal/">Journal</a><a href="/visibilite-locale/">Visibilité</a><a href="/satisfaction-client/">Satisfaction</a><a href="/outils/">Outils</a><a href="/contribuer/">Contribuer</a></nav>
     </div>
   </header>
   <main id="contenu" class="shell content">{{ content | safe }}</main>

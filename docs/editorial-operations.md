@@ -8,11 +8,15 @@ Terrain Visible traite **la satisfaction client et la visibilité locale** pour 
 
 Ne lancer un autre site que s’il a une audience, un corpus et un apport réellement distincts. Pas de réseau de clones, de renvois artificiels ni de traduction massive. Mesurer la valeur de Terrain Visible avant un deuxième domaine ; un nouveau domaine nécessite un compte de facturation MyFrank vérifié.
 
+## Format des dossiers
+
+Chaque nouvel article du Journal possède `date`, `published` (date visible), `publishedIso` (ISO 8601 pour Atom/Article), `category`, description dédiée, auteur public MyFrank ou contributeur consenti, exemple original et limites. Si une règle externe est mentionnée, ouvrir et dater sa source primaire. Relier l’article depuis un hub métier ou méthode, vérifier le CSV ou autre actif annoncé, et mettre à jour le flux Atom. La page Journal et le sitemap se génèrent avec Eleventy. Vérifier l’URL CSS réellement servie, les métas et l’image Open Graph par HTTP après publication.
+
 ## Cycle quotidien
 
 1. Vérifier les propositions de contributeurs et les nouvelles questions utiles ; refuser les données privées ou l'autopromotion.
 2. Choisir un sujet distinct des pages existantes et de la recherche réelle ; consigner intention, source primaire si une règle externe est citée, exemple rempli, limites et lien interne.
-3. Rédiger, relire comme lecteur puis comme vérificateur, tester les liens et le mobile, publier seulement si le résultat est réellement utile. Sinon publier une correction ou enrichir une page existante ; ne pas fabriquer un article pour remplir un quota.
+3. Viser un dossier ou enrichissement utile chaque jour, selon le calendrier privé `myfrank-second-site-editorial-calendar.md`. Rédiger, relire comme lecteur puis comme vérificateur, tester les liens et le mobile, publier seulement si le résultat est réellement utile. Sinon publier une correction ou enrichir une page existante ; ne pas fabriquer un article pour remplir un quota.
 4. Surveiller les retours, corriger rapidement, enregistrer la date et le SHA. Créditer les contributeurs consentants et déclarer leurs liens d'intérêt.
 
 ## Indicateurs mensuels
