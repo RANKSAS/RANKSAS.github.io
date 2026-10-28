@@ -1,0 +1,16 @@
+{
+  "name": "carnet-des-avis",
+  "version": "1.0.0",
+  "description": "Ressource éditoriale MyFrank sur l'analyse des avis clients",
+  "scripts": {
+    "build": "eleventy",
+    "test": "npm run build && node --test scripts/site.test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7"
+  }
+}

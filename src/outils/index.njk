@@ -1,0 +1,16 @@
+---
+layout: base.njk
+title: Calculer la part d’un thème dans vos avis
+description: Un calculateur gratuit et local pour afficher la part d’un thème parmi des avis clients, avec le bon dénominateur et ses limites.
+---
+<p class="eyebrow">Outil gratuit · aucune donnée envoyée</p>
+<h1>Calculer sans surinterpréter</h1>
+<p class="lead">Combien d’avis d’un lot mentionnent un thème précis ? Saisissez deux nombres et gardez la période et la source identiques. Le calcul se fait dans votre navigateur.</p>
+<form id="calculator" class="calculator">
+  <div class="fields"><label>Nombre d’avis distincts dans le lot<input id="total" type="number" min="1" max="100000" step="1" inputmode="numeric" required value="12"></label><label>Avis qui mentionnent ce thème<input id="mentions" type="number" min="0" max="100000" step="1" inputmode="numeric" required value="3"></label></div>
+  <button class="button" type="submit">Calculer</button>
+  <p id="result" class="result" role="status" aria-live="polite">Exemple : 3 avis sur 12 mentionnent ce thème, soit 25 % de ce lot.</p>
+</form>
+<div class="note"><strong>Limite importante :</strong> ce pourcentage décrit seulement les avis saisis, pas tous les clients. Un thème cité par 1 avis sur 3 mérite une vérification, mais ne suffit pas à établir une tendance. N’utilisez pas l’outil pour identifier un client ou stocker des données sensibles.</div>
+<p>Pour décider quoi faire après le calcul, lisez <a href="/methode/">notre méthode en quatre étapes</a> ou <a href="/articles/que-faire-avec-douze-avis-clients/">l’exemple chiffré</a>.</p>
+<script src="/assets/calculator.js" defer></script>

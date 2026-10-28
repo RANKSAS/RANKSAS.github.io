@@ -1,0 +1,26 @@
+name: Proposer une contribution
+description: Cas de terrain, méthode ou correction pour Le Carnet des Avis
+title: "Contribution : "
+body:
+  - type: markdown
+    attributes:
+      value: "Ce dépôt est public. Ne publiez aucune donnée personnelle de client ni conversation privée."
+  - type: textarea
+    id: situation
+    attributes:
+      label: Situation et secteur
+      description: Décrivez le contexte sans identifier de client.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Vérification, résultat et limites
+      description: Qu’avez-vous contrôlé ? Qu’est-ce qui reste incertain ?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources publiques ou autorisées
+      description: Ajoutez les URL et précisez vos droits si vous proposez un média.
