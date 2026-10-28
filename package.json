@@ -1,7 +1,7 @@
 {
-  "name": "carnet-des-avis",
+  "name": "terrain-visible",
   "version": "1.0.0",
-  "description": "Ressource éditoriale MyFrank sur l'analyse des avis clients",
+  "description": "Ressource éditoriale sur la satisfaction client et la visibilité locale",
   "scripts": {
     "build": "eleventy",
     "test": "npm run build && node --test scripts/site.test.mjs"

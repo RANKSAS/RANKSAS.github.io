@@ -37,4 +37,4 @@ Si les horaires ne sont pas identifiables, ne prétendez pas avoir trouvé la ca
 3. Notez chaque thème avec son numérateur ; [l’outil gratuit](/outils/) calcule la part dans le lot sans enregistrer vos données.
 4. Assignez une vérification et une date avant de conclure.
 
-Dans un hôtel, les thèmes et les sources changent. Pour un tableau de bord propre aux avis d’hôtel, [le guide MyFrank](https://myfrank.io/blog/fr/tableau-de-bord-avis-clients-hotel?utm_source=carnetdesavis&utm_medium=referral&utm_campaign=exemple-douze-avis) propose cinq indicateurs et une fiche remplie. **Transparence :** Le Carnet des Avis est édité par MyFrank ; ce lien mène à notre site produit.
+Dans un hôtel, les thèmes et les sources changent. Pour un tableau de bord propre aux avis d’hôtel, [le guide MyFrank](https://myfrank.io/blog/fr/tableau-de-bord-avis-clients-hotel?utm_source=terrainvisible&utm_medium=referral&utm_campaign=exemple-douze-avis) propose cinq indicateurs et une fiche remplie. **Transparence :** Terrain Visible est édité par MyFrank ; ce lien mène à notre site produit.

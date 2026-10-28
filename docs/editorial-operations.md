@@ -2,7 +2,11 @@
 
 ## Positionnement
 
-Le Carnet des Avis traite la **méthode d'analyse des retours clients** (dénominateurs, vérification, décision, cas de terrain) pour plusieurs secteurs. Le blog MyFrank conserve les guides produit et les procédures spécifiques à Google, à l'hôtellerie et à la restauration. Ne pas recopier les textes ni créer deux pages visant la même intention.
+Terrain Visible traite **la satisfaction client et la visibilité locale** pour hospitality, restauration et retail, avec diagnostics, exemples de terrain et sources primaires. Les avis publics ne sont qu’un signal parmi d’autres. Le blog MyFrank conserve les guides produit et les procédures spécifiques à Google, à l'hôtellerie et à la restauration. Ne pas recopier les textes ni créer deux pages visant la même intention.
+
+## Portefeuille de sites
+
+Ne lancer un autre site que s’il a une audience, un corpus et un apport réellement distincts. Pas de réseau de clones, de renvois artificiels ni de traduction massive. Mesurer la valeur de Terrain Visible avant un deuxième domaine ; un nouveau domaine nécessite un compte de facturation MyFrank vérifié.
 
 ## Cycle quotidien
 
@@ -14,7 +18,7 @@ Le Carnet des Avis traite la **méthode d'analyse des retours clients** (dénomi
 ## Indicateurs mensuels
 
 - Search Console : pages indexées, requêtes non-brand, impressions et clics avec fenêtre/pays/appareil explicites.
-- Analytics : visites du Carnet vers MyFrank via `utm_source=carnetdesavis`, puis contacts effectivement attribuables. Clics sortants ≠ leads.
+- Analytics : visites de Terrain Visible vers MyFrank via `utm_source=terrainvisible`, puis contacts effectivement attribuables. Clics sortants ≠ leads.
 - Qualité : erreurs signalées, corrections publiées, contributions reçues/acceptées, pages avec apport original. Aucun rang garanti.
 
 ## Domaine

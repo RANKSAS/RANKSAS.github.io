@@ -1,5 +1,5 @@
 name: Proposer une contribution
-description: Cas de terrain, méthode ou correction pour Le Carnet des Avis
+description: Cas de terrain, méthode ou correction pour Terrain Visible
 title: "Contribution : "
 body:
   - type: markdown

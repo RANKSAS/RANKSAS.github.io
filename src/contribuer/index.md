@@ -1,15 +1,15 @@
 ---
 layout: base.njk
-title: Contribuer au Carnet des Avis
-description: Proposer un cas de terrain, une méthode ou une correction au Carnet des Avis, avec règles de vérification, attribution et confidentialité.
+title: Contribuer au Terrain Visible
+description: Proposer un cas de terrain, une méthode ou une correction au Terrain Visible, avec règles de vérification, attribution et confidentialité.
 ---
-# Contribuer au Carnet des Avis
+# Contribuer au Terrain Visible
 
 Une contribution utile décrit une situation réelle, ce qui a été vérifié, l’action tentée et ce qui reste incertain. Les retours contradictoires et les corrections sont bienvenus.
 
 ## Proposer un cas ou une correction
 
-[Ouvrir le formulaire de contribution sur GitHub](https://github.com/myfrank-io/myfrank-io.github.io/issues/new?template=contribution.yml). Un compte GitHub est nécessaire. Si vous n’en avez pas, vous pouvez transmettre votre proposition à [contact@myfrank.io](mailto:contact@myfrank.io?subject=Carnet%20des%20Avis%20-%20contribution) en indiquant « Carnet des Avis » ; aucune publication automatique n’en découle.
+[Ouvrir le formulaire de contribution sur GitHub](https://github.com/myfrank-io/myfrank-io.github.io/issues/new?template=contribution.yml). Un compte GitHub est nécessaire. Si vous n’en avez pas, vous pouvez transmettre votre proposition à [contact@myfrank.io](mailto:contact@myfrank.io?subject=Terrain%20Visible%20-%20contribution) en indiquant « Terrain Visible » ; aucune publication automatique n’en découle.
 
 Indiquez le secteur, le problème étudié, la méthode de vérification, les limites et les sources autorisées à être citées. Ne joignez ni identité de client, ni conversation privée, ni capture contenant des données personnelles.
 

@@ -10,18 +10,18 @@
   <meta property="og:title" content="{{ title }} · {{ site.name }}">
   <meta property="og:description" content="{{ description or site.description }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <link rel="stylesheet" href="/assets/site.css?v=20261028a">
+  <link rel="stylesheet" href="/assets/site.css?v=20261028b">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"{{ 'Article' if tags and 'article' in tags else 'WebPage' }}","headline":{{ title | dump | safe }},"url":{{ (site.url + page.url) | dump | safe }},"publisher":{"@type":"Organization","name":"MyFrank"}}</script>
 </head>
 <body>
   <a class="skip" href="#contenu">Aller au contenu</a>
   <header class="site-header">
     <div class="shell header-inner">
-      <a class="brand" href="/" aria-label="Le Carnet des Avis, accueil"><span class="brand-mark" aria-hidden="true">C</span><span>Le Carnet<br>des Avis</span></a>
-      <nav aria-label="Navigation principale"><a href="/methode/">La méthode</a><a href="/outils/">Outil gratuit</a><a href="/contribuer/">Contribuer</a></nav>
+      <a class="brand" href="/" aria-label="Terrain Visible, accueil"><span class="brand-mark" aria-hidden="true">T<span>.</span></span><span>Terrain<br>Visible</span></a>
+      <nav aria-label="Navigation principale"><a href="/visibilite-locale/">Visibilité</a><a href="/satisfaction-client/">Satisfaction</a><a href="/outils/">Outils</a><a href="/contribuer/">Contribuer</a></nav>
     </div>
   </header>
   <main id="contenu" class="shell content">{{ content | safe }}</main>
-  <footer class="site-footer"><div class="shell footer-grid"><p><strong>Le Carnet des Avis</strong><br>Une ressource éditoriale créée et exploitée par <a href="https://myfrank.io/">MyFrank</a>. L’affiliation est indiquée sur chaque page ; aucun avis ni résultat n’est inventé comme preuve.</p><nav aria-label="Liens de pied de page"><a href="/a-propos/">À propos et transparence</a><a href="/contribuer/">Proposer une contribution</a><a href="https://myfrank.io/ml">Mentions légales de l’éditeur</a><a href="/sitemap.xml">Plan du site</a></nav></div></footer>
+  <footer class="site-footer"><div class="shell footer-grid"><p><strong>Terrain Visible</strong><br>Un site éditorial créé et exploité par <a href="https://myfrank.io/">MyFrank</a>. L’affiliation est indiquée sur chaque page ; nous distinguons exemples, preuves et hypothèses.</p><nav aria-label="Liens de pied de page"><a href="/a-propos/">À propos et transparence</a><a href="/contribuer/">Proposer une contribution</a><a href="https://myfrank.io/ml">Mentions légales de l’éditeur</a><a href="/sitemap.xml">Plan du site</a></nav></div></footer>
 </body>
 </html>

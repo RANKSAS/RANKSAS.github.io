@@ -1,4 +1,4 @@
-# Le Carnet des Avis
+# Terrain Visible
 
 Site éditorial créé et exploité par MyFrank. Il publie des méthodes originales pour lire les avis clients, sans se présenter comme un tiers indépendant. URL initiale : `https://myfrank-io.github.io/` ; un domaine propre pourra être ajouté plus tard après vérification de disponibilité et achat.
 

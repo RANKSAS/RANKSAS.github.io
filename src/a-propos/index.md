@@ -1,11 +1,11 @@
 ---
 layout: base.njk
 title: À propos et transparence éditoriale
-description: Qui édite Le Carnet des Avis, comment les exemples sont préparés et ce que signifient les liens vers MyFrank.
+description: Qui édite Terrain Visible, comment les exemples sont préparés et ce que signifient les liens vers MyFrank.
 ---
 # À propos et transparence éditoriale
 
-**Le Carnet des Avis est créé, exploité et financé par [MyFrank](https://myfrank.io/).** Ce n’est pas un média tiers indépendant. Le site propose des méthodes ouvertes pour lire les retours clients, vérifier des problèmes et décider d’actions concrètes.
+**Terrain Visible est créé, exploité et financé par [MyFrank](https://myfrank.io/).** Ce n’est pas un média tiers indépendant. Le site propose des méthodes ouvertes pour relier satisfaction client, qualité de service et visibilité locale dans l’hôtellerie, la restauration et le commerce.
 
 Les textes sont relus pour distinguer faits, exemples fictifs et hypothèses. Les exemples inventés sont marqués comme tels. Nous ne publions pas de faux témoignages, ne vendons pas de liens et ne promettons pas de classement Google ou de visibilité dans une réponse d’IA. Quand un article renvoie vers MyFrank, le lien sert le sujet du lecteur et l’affiliation est indiquée.
 

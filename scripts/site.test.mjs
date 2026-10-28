@@ -3,10 +3,10 @@ import { readFileSync } from 'node:fs';
 import test from 'node:test';
 
 const root = new URL('../_site/', import.meta.url);
-const pages = ['/', '/methode/', '/outils/', '/articles/que-faire-avec-douze-avis-clients/', '/a-propos/', '/contribuer/'];
+const pages = ['/', '/methode/', '/outils/', '/visibilite-locale/', '/satisfaction-client/', '/hospitality/', '/restauration/', '/retail/', '/articles/que-faire-avec-douze-avis-clients/', '/a-propos/', '/contribuer/'];
 const read = (path) => readFileSync(new URL(`.${path}index.html`, root), 'utf8');
 
-test('six public pages have unique titles, canonical URLs and visible ownership', () => {
+test('eleven public pages have unique titles, canonical URLs and visible ownership', () => {
   const titles = new Set();
   for (const path of pages) {
     const html = read(path);
@@ -15,7 +15,7 @@ test('six public pages have unique titles, canonical URLs and visible ownership'
     assert.ok(!titles.has(title), title);
     titles.add(title);
     assert.ok(html.includes(`rel="canonical" href="https://myfrank-io.github.io${path}"`), path);
-    assert.ok(html.includes('créée et exploitée par <a href="https://myfrank.io/">MyFrank</a>'), path);
+    assert.ok(html.includes('créé et exploité par <a href="https://myfrank.io/">MyFrank</a>'), path);
     assert.equal((html.match(/<h1\b/g) || []).length, 1, path);
   }
 });
@@ -24,7 +24,7 @@ test('original example and local calculator are delivered, not merely claimed', 
   const article = read('/articles/que-faire-avec-douze-avis-clients/');
   assert.ok(article.includes('3/12 = 25 %'));
   assert.ok(article.includes('Exemple fictif') || article.includes('exemple fictif'));
-  assert.ok(article.includes('utm_source=carnetdesavis'));
+  assert.ok(article.includes('utm_source=terrainvisible'));
   const tool = read('/outils/');
   assert.ok(tool.includes('id="calculator"'));
   assert.ok(tool.includes('/assets/calculator.js'));
