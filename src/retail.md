@@ -21,6 +21,8 @@ Un client peut trouver un magasin, puis renoncer faute d’horaire fiable, de di
 
 La [grille de visibilité](/visibilite-locale/) aide à documenter la présence en ligne ; la [méthode de satisfaction](/satisfaction-client/) évite de confondre un signal avec un verdict.
 
+Pour contrôler la promesse avant le déplacement, utilisez aussi [les deux scénarios mobiles de retrait en magasin](/articles/retrait-magasin-promesse-verifiable/) et leur fiche d’écart téléchargeable.
+
 ## Fiche d’audit : retirer une commande
 
 Le retrait mêle présence numérique et expérience physique. Testez-le comme une personne qui n’a jamais visité le magasin : depuis la page produit ou la confirmation, pouvez-vous comprendre **quand venir**, **où aller** et **quoi présenter** sans appeler ? N’utilisez pas une commande réelle contenant des données personnelles pour documenter un exemple public.

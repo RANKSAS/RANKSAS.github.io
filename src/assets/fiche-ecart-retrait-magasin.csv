@@ -1,0 +1,4 @@
+scenario,date_test,appareil,magasin,produit_variante,source_promesse,promesse_observee,etape_confrontee,etat_observe,ecart,decision,responsable,date_correction,date_retest,etat
+"A (fictif)","2026-10-29","mobile 390 px","Centre","lampe bleue","fiche produit","disponible","premier courriel","demande reçue","départ non confirmé","attendre message prête à retirer","équipe site et notifications","","","à corriger"
+"B (fictif)","2026-10-29","mobile 390 px","Gare","lampe verte","sélecteur de magasin","Gare choisi","panier","Centre rétabli","magasin changé sans alerte","faire confirmer le magasin avant validation","équipe parcours d’achat","","","à corriger"
+"","","","","","","","","","","","","","",""

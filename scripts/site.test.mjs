@@ -3,10 +3,10 @@ import { existsSync, readFileSync } from 'node:fs';
 import test from 'node:test';
 
 const root = new URL('../_site/', import.meta.url);
-const pages = ['/', '/methode/', '/outils/', '/visibilite-locale/', '/satisfaction-client/', '/hospitality/', '/restauration/', '/retail/', '/articles/que-faire-avec-douze-avis-clients/', '/articles/audit-parcours-client-local/', '/journal/', '/a-propos/', '/contribuer/'];
+const pages = ['/', '/methode/', '/outils/', '/visibilite-locale/', '/satisfaction-client/', '/hospitality/', '/restauration/', '/retail/', '/articles/que-faire-avec-douze-avis-clients/', '/articles/audit-parcours-client-local/', '/articles/retrait-magasin-promesse-verifiable/', '/journal/', '/a-propos/', '/contribuer/'];
 const read = (path) => readFileSync(new URL(`.${path}index.html`, root), 'utf8');
 
-test('thirteen public pages have unique titles, canonical URLs and visible ownership', () => {
+test('public pages have unique titles, canonical URLs and visible ownership', () => {
   const titles = new Set();
   for (const path of pages) {
     const html = read(path);
@@ -18,6 +18,15 @@ test('thirteen public pages have unique titles, canonical URLs and visible owner
     assert.ok(html.includes('créé et exploité par <a href="https://myfrank.io/">MyFrank</a>'), path);
     assert.equal((html.match(/<h1\b/g) || []).length, 1, path);
   }
+});
+
+test('retrait dossier has its stated two filled examples and download', () => {
+  const article = read('/articles/retrait-magasin-promesse-verifiable/');
+  const csv = readFileSync(new URL('./assets/fiche-ecart-retrait-magasin.csv', root), 'utf8');
+  assert.ok(article.includes('href="/assets/fiche-ecart-retrait-magasin.csv" download'));
+  assert.equal(csv.trim().split('\n').length, 4);
+  assert.ok(article.includes('Deuxième exemple fictif'));
+  assert.ok(readFileSync(new URL('./feed.xml', root), 'utf8').includes('retrait-magasin-promesse-verifiable'));
 });
 
 test('original example and local calculator are delivered, not merely claimed', () => {
