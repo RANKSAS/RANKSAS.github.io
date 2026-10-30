@@ -20,6 +20,8 @@ Une personne compare plusieurs lieux avant de réserver. Le premier contrôle n�
 
 Commencez avec [l’audit de visibilité locale](/visibilite-locale/), puis utilisez [la fiche satisfaction](/satisfaction-client/). Pour approfondir un indicateur spécifique aux hôtels, [le tableau de bord proposé par MyFrank](https://myfrank.io/blog/fr/tableau-de-bord-avis-clients-hotel?utm_source=terrainvisible&utm_medium=referral&utm_campaign=hospitality) est une ressource de notre éditeur, clairement identifié [ici](/a-propos/).
 
+Pour vérifier le texte effectivement envoyé avant une arrivée hors horaires, utilisez notre [modèle de message pré-arrivée et ses trois essais à blanc](/articles/message-pre-arrivee-hotel/).
+
 ## Fiche d’audit : l’arrivée tardive
 
 Une indication d’accès est une promesse concrète. Pour la vérifier, partez du même écran qu’un voyageur : résultat de recherche, fiche, page du lieu, confirmation de réservation, message pré-arrivée. Notez pour chaque support **l’entrée annoncée**, **l’horaire couvert** et **le contact en cas de blocage**. Si deux supports se contredisent, corrigez d’abord celui qui expose le voyageur à une porte fermée.

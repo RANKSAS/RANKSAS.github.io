@@ -1,0 +1,5 @@
+scenario,canal_et_version,support_compare,ecart_observe,decision_avant_envoi,responsable,version_validee,retest_date_et_resultat
+"A - arrivée 23 h (fictif)","message pré-arrivée v1","confirmation et consigne interne","entrée principale vs porte latérale après 22 h","bloquer; valider l'entrée et tester le trajet","responsable accueil","à valider","à faire"
+"B - téléphone déchargé (fictif)","message pré-arrivée v1","procédure d'accès interne","lien mobile seul sans repli vérifié","vérifier un repli réel; ne pas promettre d'accès non assuré","responsable nuit","à valider","à faire"
+"C - heure décalée (fictif)","message pré-arrivée v1","plage de réponse de la ligne","appel conseillé après fermeture de la ligne à 22 h","corriger canal et plage; tester la réponse","responsable communication","à valider","à faire"
+"À dupliquer",,,,,,,
