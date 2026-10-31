@@ -19,6 +19,8 @@ La recherche « où manger » débouche sur une décision rapide. Vérifiez d’
 
 Une carte introuvable est un problème de visibilité **et** de service ; une attente réelle ne se corrige pas par une réponse publique seule. Utilisez la [grille de présence locale](/visibilite-locale/) et la [fiche satisfaction](/satisfaction-client/) avant de choisir une action.
 
+Pour un contrôle ciblé du passage entre la carte et la réservation, utilisez notre [parcours-test mobile de cinq minutes et sa fiche d’écart](/articles/carte-reservation-restaurant-mobile/).
+
 ## Fiche d’audit : le déjeuner du samedi
 
 Choisissez un service réel et vérifiez le parcours complet à l’heure où une personne serait susceptible de décider. Une carte disponible en PDF mais illisible sur téléphone n’est pas équivalente à une carte consultable. Un bouton « réserver » qui mène à un autre établissement n’est pas un détail de référencement : il casse la décision.

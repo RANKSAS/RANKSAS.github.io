@@ -1,0 +1,4 @@
+cas_fictif,service_et_date,appareil_et_version,lien_de_depart,etape,ecart_observe,decision,responsable,etat,retest
+"A - fictif","vendredi dîner à dater","téléphone et navigateur à noter","carte soir","passage vers réservation","outil prépositionné sur déjeuner","corriger le paramètre du lien; ne pas estimer de tables perdues","responsable site","à corriger","même lien et même service à refaire"
+"B - fictif","samedi deux couverts à dater","téléphone et navigateur à noter","carte Centre","établissement dans outil externe","Gare affiché avant validation","bloquer; vérifier la configuration avec l'équipe","responsable réservations","à corriger","comparer écran final et confirmation de test autorisée"
+"À dupliquer",,,,,,,,,
