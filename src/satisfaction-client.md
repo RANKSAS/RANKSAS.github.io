@@ -22,4 +22,6 @@ Notez **établissement + période + source + nombre de retours exploitables**. P
 
 Le même principe vaut pour une attente au restaurant ou un retrait de commande en magasin. Lisez notre [méthode détaillée de lecture des avis](/methode/) et notre [audit de visibilité locale](/visibilite-locale/) : la promesse en ligne doit rester cohérente avec le service sur place.
 
+Pour éviter de confondre contacts reçus et réponses à une enquête, utilisez aussi notre [fiche de tri des demandes, incidents et réponses de satisfaction](/articles/demande-incident-satisfaction-denominateurs/) : six dossiers fictifs, trois dénominateurs et un CSV à adapter.
+
 **Pour cadrer les avis publics :** [Google Business Profile — lire et répondre aux avis](https://support.google.com/business/answer/3474122?hl=fr). Notre fiche de décision est une méthode éditoriale proposée par Terrain Visible, non une norme statistique.

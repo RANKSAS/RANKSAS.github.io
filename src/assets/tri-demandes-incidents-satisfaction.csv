@@ -1,0 +1,8 @@
+dossier_fictif,motif_initial,qualification,incident_confirme,invite_question_traitement,reponse_valide,reponse,verification_ou_decision
+D01,Demande d'horaire,demande,non,oui,oui,satisfait,Confirmer la version des horaires affiches
+D02,Entree indiquee fermee,incident signale,a verifier,oui,non,sans reponse,Verifier sur place l'entree et l'heure
+D03,Demande de justificatif,demande,non,oui,oui,insatisfait,Verifier le delai de remise du justificatif
+D04,Rappelez-moi sans motif,indetermine,non,non,non,non invite,Demander le motif sans supposer un incident
+D05,Message de retrait non recu,incident signale,a verifier,oui,non,sans reponse,Verifier l'envoi et le canal
+D06,Question sur une reservation,demande,non,non,non,non invite,Verifier la reponse fournie
+,,,,,,,
