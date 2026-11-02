@@ -1,0 +1,6 @@
+lieu_fictif,champ,canal,ancienne_valeur,nouvelle_valeur,confirmation_locale,responsable_publication,statut_publication,controle_public,controle_par,decision
+"Centre - fictif","horaire exceptionnel lundi","page du lieu","ouvert","fermé","responsable local; exemple fictif","éditeur site","publié","page contrôlée; date fictive","référent réseau","ouvert: fiche locale à contrôler"
+"Centre - fictif","horaire exceptionnel lundi","fiche locale","ouvert","fermé","responsable local; exemple fictif","gestionnaire profil","à publier","non contrôlé","référent réseau","ouvert"
+"Gare - fictif","téléphone standard","page du lieu","ancien standard fictif","nouveau standard fictif","appel interne fictif","éditeur site","publié","valeur visible; date fictive","autre membre équipe","clos si fiche concorde"
+"Gare - fictif","téléphone standard","fiche locale","ancien standard fictif","nouveau standard fictif","appel interne fictif","gestionnaire profil","publié","valeur visible; date fictive","autre membre équipe","clos si page concorde"
+"À dupliquer",,,,,,,,,,

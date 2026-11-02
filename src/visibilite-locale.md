@@ -26,3 +26,5 @@ Un lieu peut apparaître sur une carte sans être choisi. Commencez donc par deu
 Pour un [hôtel](/hospitality/), vérifiez les conditions de séjour et l’accès. Pour un [restaurant](/restauration/), carte, horaires de service et réservation. Pour un [commerce](/retail/), disponibilité, retrait, retour et accès. Dans tous les cas, confrontez la promesse visible à [l’expérience réellement vécue](/satisfaction-client/).
 
 **Sources de méthode :** [Google Business Profile — gérer les informations de l’établissement](https://support.google.com/business/answer/3039617?hl=fr) ; [Google Search Central — rapport de performances](https://support.google.com/webmasters/answer/7576553?hl=fr). Ces sources décrivent des outils ; elles ne garantissent ni indexation ni rang.
+
+Pour plusieurs lieux, utilisez la [matrice de responsabilités et le journal des corrections d'horaires et coordonnées](/articles/horaires-coordonnees-reseau-journal-corrections/) : une modification soumise reste distincte d'une information publiquement vérifiée.
