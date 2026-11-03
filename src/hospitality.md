@@ -22,6 +22,8 @@ Commencez avec [l’audit de visibilité locale](/visibilite-locale/), puis util
 
 Pour vérifier le texte effectivement envoyé avant une arrivée hors horaires, utilisez notre [modèle de message pré-arrivée et ses trois essais à blanc](/articles/message-pre-arrivee-hotel/).
 
+Pour suivre les questions qui subsistent sans les confondre avec tous les séjours, utilisez le [tableau des demandes d’accès par séjour](/articles/demandes-acces-hotel-par-sejour/).
+
 ## Fiche d’audit : l’arrivée tardive
 
 Une indication d’accès est une promesse concrète. Pour la vérifier, partez du même écran qu’un voyageur : résultat de recherche, fiche, page du lieu, confirmation de réservation, message pré-arrivée. Notez pour chaque support **l’entrée annoncée**, **l’horaire couvert** et **le contact en cas de blocage**. Si deux supports se contredisent, corrigez d’abord celui qui expose le voyageur à une porte fermée.

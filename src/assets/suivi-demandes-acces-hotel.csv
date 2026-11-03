@@ -1,0 +1,4 @@
+cohorte_arrivee_fictive,sejours_commences,sollicitations_acces_avant_arrivee_rattachees,sejours_distincts_concernes,demandes_non_attribuees_hors_taux,version_message_envoyee,canaux_inclus,verification_a_faire
+Semaine A,80,7,5,0,Version A,"telephone; courriel; messagerie",Verifier heures d arrivee et motifs anonymises
+Semaine B,84,4,4,0,Version B,"telephone; courriel; messagerie",Verifier canaux et arrivees tardives avant comparaison
+,,,,,,,
