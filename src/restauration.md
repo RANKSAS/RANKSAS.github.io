@@ -21,6 +21,8 @@ Une carte introuvable est un problème de visibilité **et** de service ; une at
 
 Pour un contrôle ciblé du passage entre la carte et la réservation, utilisez notre [parcours-test mobile de cinq minutes et sa fiche d’écart](/articles/carte-reservation-restaurant-mobile/).
 
+Pour les cartes qui changent selon le service, utilisez aussi la [fiche de versions et de contrôle public](/articles/carte-restaurant-version-service/) : elle sépare validation, mise en ligne et affichage réellement vu.
+
 ## Fiche d’audit : le déjeuner du samedi
 
 Choisissez un service réel et vérifiez le parcours complet à l’heure où une personne serait susceptible de décider. Une carte disponible en PDF mais illisible sur téléphone n’est pas équivalente à une carte consultable. Un bouton « réserver » qui mène à un autre établissement n’est pas un détail de référencement : il casse la décision.

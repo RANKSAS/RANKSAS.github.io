@@ -1,0 +1,5 @@
+lieu_fictif,service,version_validee,validation_heure,canal,lien_public,version_vue,controle_heure,statut,responsable_action,retest_heure,decision
+Lieu A,2026-11-04 soir,SOIR-04-R2,16:00,site,exemple.invalid/carte,MIDI-04-R1,17:10,a_corriger,equipe_site,17:25,SOIR-04-R2 visible sur le meme lien
+Lieu B,2026-11-05 midi,MIDI-05-R1,10:00,site,exemple.invalid/menu,MIDI-05-R1,10:15,verifie,equipe_site,10:15,site verifie seulement
+Lieu B,2026-11-05 midi,MIDI-05-R1,10:00,QR vitrine,exemple.invalid/qr,carte_non_datee,10:20,a_corriger,equipe_salle,,retest QR en attente
+,,,,,,,,,,,
