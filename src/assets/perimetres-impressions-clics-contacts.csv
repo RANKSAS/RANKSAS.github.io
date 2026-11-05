@@ -1,0 +1,4 @@
+fenetre;propriete;page;type_recherche;pays;appareil;impressions_gsc;clics_gsc;ctr_calcule;demandes_recues_dedoublonnees;source_verifiee;source_inconnue;question_a_verifier;decision
+A 15-21 oct 2026;commerce fictif;page locale fictive;Web;France;tous;800;40;5 %;6;2;4;Même source de mesure pour tous les contacts ?;Vérifier le registre
+B 22-28 oct 2026;commerce fictif;page locale fictive;Web;France;tous;1000;45;4,5 %;9;3;6;Changement de campagne ou de formulaire ?;Ne pas attribuer la hausse sans preuve
+;;;;;;;;;;;;;

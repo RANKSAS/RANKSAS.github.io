@@ -28,3 +28,5 @@ Pour un [hôtel](/hospitality/), vérifiez les conditions de séjour et l’acc�
 **Sources de méthode :** [Google Business Profile — gérer les informations de l’établissement](https://support.google.com/business/answer/3039617?hl=fr) ; [Google Search Central — rapport de performances](https://support.google.com/webmasters/answer/7576553?hl=fr). Ces sources décrivent des outils ; elles ne garantissent ni indexation ni rang.
 
 Pour plusieurs lieux, utilisez la [matrice de responsabilités et le journal des corrections d'horaires et coordonnées](/articles/horaires-coordonnees-reseau-journal-corrections/) : une modification soumise reste distincte d'une information publiquement vérifiée.
+
+Pour rapprocher impressions, clics et demandes reçues sans confondre les périmètres, utilisez la [fiche de comparaison et son exemple rempli](/articles/impressions-clics-contacts-perimetres/).

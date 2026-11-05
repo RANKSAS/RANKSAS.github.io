@@ -3,7 +3,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import test from 'node:test';
 
 const root = new URL('../_site/', import.meta.url);
-const pages = ['/', '/methode/', '/outils/', '/visibilite-locale/', '/satisfaction-client/', '/hospitality/', '/restauration/', '/retail/', '/articles/que-faire-avec-douze-avis-clients/', '/articles/audit-parcours-client-local/', '/articles/retrait-magasin-promesse-verifiable/', '/articles/message-pre-arrivee-hotel/', '/articles/carte-reservation-restaurant-mobile/', '/articles/carte-restaurant-version-service/', '/articles/demande-incident-satisfaction-denominateurs/', '/articles/horaires-coordonnees-reseau-journal-corrections/', '/articles/demandes-acces-hotel-par-sejour/', '/journal/', '/a-propos/', '/contribuer/'];
+const pages = ['/', '/methode/', '/outils/', '/visibilite-locale/', '/satisfaction-client/', '/hospitality/', '/restauration/', '/retail/', '/articles/que-faire-avec-douze-avis-clients/', '/articles/audit-parcours-client-local/', '/articles/retrait-magasin-promesse-verifiable/', '/articles/message-pre-arrivee-hotel/', '/articles/carte-reservation-restaurant-mobile/', '/articles/carte-restaurant-version-service/', '/articles/demande-incident-satisfaction-denominateurs/', '/articles/horaires-coordonnees-reseau-journal-corrections/', '/articles/demandes-acces-hotel-par-sejour/', '/articles/impressions-clics-contacts-perimetres/', '/journal/', '/a-propos/', '/contribuer/'];
 const read = (path) => readFileSync(new URL(`.${path}index.html`, root), 'utf8');
 
 test('public pages have unique titles, canonical URLs and visible ownership', () => {
@@ -123,5 +123,17 @@ test('restaurant card versions include a retest and public worksheet', () => {
   assert.equal(csv.trim().split('\n').length, 5);
   assert.ok(csv.includes('retest QR en attente'));
   assert.ok(read('/restauration/').includes(`href="${path}"`));
+  assert.ok(readFileSync(new URL('./feed.xml', root), 'utf8').includes(`https://ranksas.github.io${path}`));
+});
+
+
+test('measurement worksheet keeps source boundaries and is published', () => {
+  const path = '/articles/impressions-clics-contacts-perimetres/';
+  const article = read(path);
+  const csv = readFileSync(new URL('./assets/perimetres-impressions-clics-contacts.csv', root), 'utf8');
+  assert.ok(article.includes('href="/assets/perimetres-impressions-clics-contacts.csv" download'));
+  assert.equal(csv.trim().split('\n').length, 4);
+  assert.ok(article.includes('trois demandes supplémentaires attribuées à Google'));
+  assert.ok(read('/visibilite-locale/').includes(`href="${path}"`));
   assert.ok(readFileSync(new URL('./feed.xml', root), 'utf8').includes(`https://ranksas.github.io${path}`));
 });
