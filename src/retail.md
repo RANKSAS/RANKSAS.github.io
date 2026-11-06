@@ -23,6 +23,8 @@ La [grille de visibilité](/visibilite-locale/) aide à documenter la présence 
 
 Pour contrôler la promesse avant le déplacement, utilisez aussi [les deux scénarios mobiles de retrait en magasin](/articles/retrait-magasin-promesse-verifiable/) et leur fiche d’écart téléchargeable.
 
+Pour le trajet inverse, [la fiche de contrôle du retour en magasin](/articles/retour-produit-avant-deplacement/) distingue la promesse visible, la procédure du lieu et le retest public, sans assimiler politique commerciale et droit applicable.
+
 ## Fiche d’audit : retirer une commande
 
 Le retrait mêle présence numérique et expérience physique. Testez-le comme une personne qui n’a jamais visité le magasin : depuis la page produit ou la confirmation, pouvez-vous comprendre **quand venir**, **où aller** et **quoi présenter** sans appeler ? N’utilisez pas une commande réelle contenant des données personnelles pour documenter un exemple public.
