@@ -1,0 +1,7 @@
+lieu_fictif,date_service,service,canal,etat_soumis,controle_public_heure,texte_ou_etat_vu,reservations_existantes,responsable,retest_heure,decision
+Lieu A,2026-11-07,diner,site,fermeture_publiee,10:00,ferme,controle_interne_a_faire,equipe_site,10:30,site_verifie
+Lieu A,2026-11-07,diner,reservation,blocage_demande,10:00,creneau_20h_propose,controle_interne_a_faire,equipe_reservation,10:30,creneau_non_propose
+Lieu A,2026-11-07,diner,fiche_locale,modification_soumise,10:00,non_verifie,controle_interne_a_faire,equipe_locale,,dossier_ouvert
+Lieu B,2026-11-08,dejeuner,site,fermeture_publiee,11:00,fermeture_visible,controle_interne_en_attente,equipe_site,11:00,contact_clients_a_verifier
+Lieu B,2026-11-08,dejeuner,fiche_locale,fermeture_publiee,11:00,fermeture_visible,controle_interne_en_attente,equipe_locale,11:00,contact_clients_a_verifier
+,,,,,,,,,,
