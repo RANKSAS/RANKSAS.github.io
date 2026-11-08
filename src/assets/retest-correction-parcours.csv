@@ -1,0 +1,5 @@
+scenario,critere,heure_avant,essais_avant,reussites_avant,heure_apres,essais_apres,reussites_apres,publication_visible,decision,prochain_controle
+A - entree depuis page acces,atteindre la bonne entree,matin,2,1,matin,2,2,oui,a_recontroler,un soir
+B - consigne mobile,lire la consigne sans aide,matin,2,1,matin,2,2,oui,consigne_visible,apres prochain changement
+C - porte apres 22 h,choisir la bonne porte,soir,2,1,soir,2,1,oui,ecart_ouvert,apres correction de la consigne
+,,,,,,,,,,

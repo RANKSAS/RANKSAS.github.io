@@ -24,4 +24,6 @@ Le même principe vaut pour une attente au restaurant ou un retrait de commande 
 
 Pour éviter de confondre contacts reçus et réponses à une enquête, utilisez aussi notre [fiche de tri des demandes, incidents et réponses de satisfaction](/articles/demande-incident-satisfaction-denominateurs/) : six dossiers fictifs, trois dénominateurs et un CSV à adapter.
 
+Pour vérifier qu’une correction du parcours est visible et que la tâche fonctionne au retest, utilisez notre [protocole avant/après et son registre CSV](/articles/retester-correction-parcours-client/). Une variation de contacts ne prouve pas à elle seule l’effet de la correction.
+
 **Pour cadrer les avis publics :** [Google Business Profile — lire et répondre aux avis](https://support.google.com/business/answer/3474122?hl=fr). Notre fiche de décision est une méthode éditoriale proposée par Terrain Visible, non une norme statistique.
