@@ -1,0 +1,4 @@
+demande_id,description_minimale,trouvaille_id,dernier_constat,etat,responsable,prochain_controle,decision
+D-01,echarpe sombre,T-04,detail distinctif non verifie,correspondance_a_confirmer,reception,apres verification du detail,ne pas annoncer restitution
+D-02,chargeur,,aucune correspondance au registre a 10 h,recherche_ouverte,equipe etage,apres passage de l equipe,reponse datee au demandeur
+,,,,,,,
