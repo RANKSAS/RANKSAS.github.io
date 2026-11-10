@@ -1,0 +1,4 @@
+essai,service,canal,heure_proposee,heure_confirmation,heure_equipe,heure_prete,heure_remise,constat,proprietaire,action,retest
+E-01,mardi midi,commande mobile,12:30,12:40,12:40,12:37,12:45,écran différent de la confirmation,responsable canal,corriger heure affichée,à faire même service
+E-02,mardi soir,commande mobile,19:20,19:20,19:20,19:29,19:31,préparation 9 min après promesse,responsable service,vérifier message de mise à jour et capacité,à faire même créneau
+,,,,,,,,,,,

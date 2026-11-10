@@ -25,6 +25,8 @@ Pour les cartes qui changent selon le service, utilisez aussi la [fiche de versi
 
 Pour une fermeture exceptionnelle, utilisez le [registre par service](/articles/fermeture-exceptionnelle-restaurant-service/) : il suit la réservation, l'information publique et les réservations déjà confirmées jusqu'au retest.
 
+Pour la vente à emporter, la [fiche de passation de l'heure de retrait](/articles/commande-emporter-heure-retrait/) compare écran, confirmation, équipe et préparation effective sans confondre retard de remise et retard de cuisine.
+
 ## Fiche d’audit : le déjeuner du samedi
 
 Choisissez un service réel et vérifiez le parcours complet à l’heure où une personne serait susceptible de décider. Une carte disponible en PDF mais illisible sur téléphone n’est pas équivalente à une carte consultable. Un bouton « réserver » qui mène à un autre établissement n’est pas un détail de référencement : il casse la décision.
