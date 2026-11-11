@@ -1,0 +1,5 @@
+Essai;Créneau;Caisse;Entrée file F;Première prise en charge P;Fin paiement T;Attente P-F;Service T-P;Décision;Responsable;Retest
+A;Mardi 12 h 15;Caisse 1;12:15:00;12:19:00;12:21:00;4 min;2 min;Vérifier orientation vers caisse active;À désigner;À faire
+B;Mardi 12 h 25;Caisse 1;12:25:00;12:26:00;12:31:00;1 min;5 min;Vérifier cause locale du temps de service;À désigner;À faire
+C;Mardi 12 h 35;Caisse 1;12:35:00;inconnu;12:40:00;inconnue;inconnu;Répéter avec trois instants;À désigner;À faire
+;;;;;;;;;;

@@ -25,6 +25,8 @@ Pour contrôler la promesse avant le déplacement, utilisez aussi [les deux scé
 
 Pour le trajet inverse, [la fiche de contrôle du retour en magasin](/articles/retour-produit-avant-deplacement/) distingue la promesse visible, la procédure du lieu et le retest public, sans assimiler politique commerciale et droit applicable.
 
+Pour distinguer une file d'attente d'un encaissement long, [la fiche d'observation à trois horloges](/articles/attente-caisse-magasin-trois-horloges/) propose des essais fictifs et un CSV à retester.
+
 ## Fiche d’audit : retirer une commande
 
 Le retrait mêle présence numérique et expérience physique. Testez-le comme une personne qui n’a jamais visité le magasin : depuis la page produit ou la confirmation, pouvez-vous comprendre **quand venir**, **où aller** et **quoi présenter** sans appeler ? N’utilisez pas une commande réelle contenant des données personnelles pour documenter un exemple public.
